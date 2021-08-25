@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section {
+  margin: 20px auto;
+  max-width: 800px;
+  background: #d4d3d3;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 0px;
+}
+section >div {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  font-size: 12px;
+}
+section >div.atm-section .paper {
+  background: #fff;
+  text-align: center;
+  padding: 15px 20px;
+}
+section >div.atm-section .paper h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+section >div.atm-section label, section >div.atm-section input {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+section >div.atm-section label{
+  font-size:11px;
+  margin:20px 0 10px 0;
+}
+section >div.atm-section input {
+  height: 35px;
+  border-radius: 5px;
+  background: none;
+  outline: none;
+  border: solid 1px #ccc;
+  margin-bottom: 11px;
+  line-height: 33px;
+  text-align: right;
+  padding-right: 15px;
+  box-sizing: border-box;
+  color: #000;
+}
+.pri-color {
+  width: 100%;
+  background: #5b6cca;
+  border: none;
+  outline: none;
+  color: #fff;
+  line-height: 31px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.notes-sec > div h4 {
+  margin: 0;
+  padding: 0 0 10px 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+.notes-sec > div >div .ListItem {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
+.notes-sec > div >div .ListItem {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  border-top: solid 1px #a09e9e;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.notes-sec > div .total-dis {
+  border-bottom: solid 2px #a09e9e;
+  padding: 10px;
+  border-top: solid 1px #a09e9e;
+}
+section >div.notes-sec .paper {
+  margin-left: 10px;
+}
+section.sec-head {
+  background: #8191ef;
+  text-align: center;
+  padding: 30px 0;
+}
+section.sec-head h1 {
+  font-size: 25px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
